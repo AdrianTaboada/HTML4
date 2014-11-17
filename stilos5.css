@@ -120,8 +120,8 @@ img { border: none; }
 /*--El logotipo del sitio se muestra mediante una imagen de fondo del elemento <h1> contenido en el elemento #cabecera (la imagen se llama logo.gif)--*/
 #cabecera #logo h1 {
     background-image: url("logo.gif");
-    background-repeat: repeat;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center left;
 }
 #cabecera #logo h1 span {
     visibility:hidden;
